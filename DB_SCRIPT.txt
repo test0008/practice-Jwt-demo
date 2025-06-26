@@ -1,0 +1,11 @@
+### DB Table Script
+
+CREATE TABLE `user_entity` (
+  `id` int NOT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `mobile` varchar(255) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `gender` varchar(45) DEFAULT NULL,
+  `is_active` varchar(1) DEFAULT 'N',
+  PRIMARY KEY (`id`)
+)
