@@ -9,3 +9,5 @@ CREATE TABLE `user_entity` (
   `is_active` varchar(1) DEFAULT 'N',
   PRIMARY KEY (`id`)
 )
+
+
